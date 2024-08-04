@@ -7,6 +7,6 @@ await esbuild.build({
 		".png": "file",
 		".svg": "file",
 	},
-	// minify: true,
+	minify: true,
 	outdir: "dist",
 });
