@@ -5,18 +5,19 @@
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./esbuild.config.mjs"
+    "start": "node ./esbuild.config.mjs",
+    "dev": "node ./esdev.config.mjs"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
     "esbuild": "^0.23.0",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
