@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectsPage = () => {
+const ProjectsSection = () => {
     const projects = [
         {
             name: "Tracker Advanced",
@@ -79,8 +79,10 @@ const ProjectsPage = () => {
         }
     ];
     return (
-        <div>ProjectsPage</div>
+        <div className='projects-section'>
+
+        </div>
     )
 }
 
-export default ProjectsPage
+export default ProjectsSection

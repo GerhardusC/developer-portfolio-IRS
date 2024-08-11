@@ -1,15 +1,11 @@
 import React from 'react'
-import AboutPage from './AboutPage'
-import ProjectsPage from './ProjectsPage'
-import ContactPage from './ContactPage'
+import CvSection from './CvSection'
+import ProjectsSection from './ProjectsSection'
 
 const HomePage = () => {
     return (<>
-        <div>HomePage</div>
-        {/* TODO! Something unique about the homepage, maybe pic or something... */}
-        <AboutPage />
-        <ProjectsPage />
-        <ContactPage />
+
+        <ProjectsSection />
     </>
     )
 }

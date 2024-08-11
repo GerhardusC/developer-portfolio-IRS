@@ -1,7 +1,7 @@
 import React from 'react'
 import HomePage from '../Pages/HomePage'
-import AboutPage from '../Pages/AboutPage'
-import ProjectsPage from '../Pages/ProjectsPage'
+import CvSection from '../Pages/CvSection'
+import ProjectsSection from '../Pages/ProjectsSection'
 import ContactPage from '../Pages/ContactPage'
 
 type RouterProps = {
@@ -12,9 +12,9 @@ const Router = ({activePage}: RouterProps) => {
         case "Home": 
             return <HomePage />
         case "About":
-            return <AboutPage />
+            return <CvSection />
         case "Projects":
-            return <ProjectsPage />
+            return <ProjectsSection />
         case "Contact":
             return <ContactPage />
     }
